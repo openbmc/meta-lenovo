@@ -1,0 +1,8 @@
+Code-Review+1: Benjamin Fair <benjaminfair@google.com>
+Code-Review+2: Brad Bishop <radsquirrel@gmail.com>
+Verified+1: Brad Bishop <radsquirrel@gmail.com>
+Submitted-by: Brad Bishop <radsquirrel@gmail.com>
+Submitted-at: Thu, 11 Jul 2019 15:06:22 +0000
+Reviewed-on: https://gerrit.openbmc-project.xyz/c/openbmc/meta-lenovo/+/23116
+Project: openbmc/meta-lenovo
+Branch: refs/heads/master
