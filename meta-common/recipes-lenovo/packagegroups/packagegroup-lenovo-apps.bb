@@ -1,4 +1,4 @@
-#"Copyright ? 2019-present Lenovo
+#"Copyright (c) 2019-present Lenovo
 #Licensed under BSD-3, see COPYING.BSD file for details."
 
 SUMMARY = "OpenBMC for Lenovo - Applications"
@@ -33,13 +33,13 @@ RDEPENDS_${PN}-chassis = " \
 
 SUMMARY_${PN}-fans = "Lenovo Fans"
 RDEPENDS_${PN}-fans = " \
-        obmc-control-fan \
+        phosphor-pid-control \
         "
 
 SUMMARY_${PN}-flash = "Lenovo Flash"
 RDEPENDS_${PN}-flash = " \
-        obmc-flash-bmc \
-        obmc-mgr-download \
+        phosphor-ipmi-blobs \
+        phosphor-ipmi-flash \
         obmc-control-bmc \
         "
 
@@ -47,12 +47,12 @@ SUMMARY_${PN}-system = "Lenovo System"
 RDEPENDS_${PN}-system = " \
         ipmitool \
         tree \
-        obmc-pydevtools \
         spitools \
-        bmcweb \
+        strace \
         entity-manager \
-        phosphor-webui \
-        google-ipmi-sys \
         phosphor-ipmi-ethstats \
-        uart-routing \
+        phosphor-sel-logger \
+        dbus-sensors \
+        phosphor-host-postd \
+        watchdog \
         "
