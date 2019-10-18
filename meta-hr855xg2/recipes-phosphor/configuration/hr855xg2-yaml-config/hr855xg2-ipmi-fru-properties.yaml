@@ -1,15 +1,7 @@
 #"Copyright (c) 2019-present Lenovo
 #Licensed under BSD-3, see COPYING.BSD file for details."
 
-/system/chassis/motherboard/cpu0:
-    xyz.openbmc_project.Inventory.Decorator.Replaceable:
-        FieldReplaceable: 'true'
-    xyz.openbmc_project.Inventory.Decorator.Cacheable:
-        Cached: 'true'
-    xyz.openbmc_project.Inventory.Item:
-        Present: 'true'
-
-/system/chassis/motherboard/cpu1:
+/system:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -25,7 +17,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system:
+/system/chassis/motherboard/Riser1:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -33,7 +25,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMA1:
+/system/chassis/motherboard/Riser2:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -41,7 +33,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMA2:
+/system/chassis/motherboard/Riser3:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -49,7 +41,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMB1:
+/system/chassis/motherboard/PDB:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -57,7 +49,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMB2:
+/system/chassis/motherboard/CPU0:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -65,7 +57,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMC1:
+/system/chassis/motherboard/CPU1:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -73,7 +65,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMC2:
+/system/chassis/motherboard/CPU2:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -81,7 +73,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMD1:
+/system/chassis/motherboard/CPU3:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -89,7 +81,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMD2:
+/system/chassis/motherboard/DIMM0:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -97,7 +89,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMME1:
+/system/chassis/motherboard/DIMM1:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -105,7 +97,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMME2:
+/system/chassis/motherboard/DIMM2:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -113,7 +105,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMF1:
+/system/chassis/motherboard/DIMM3:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -121,7 +113,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU1_DIMMF2:
+/system/chassis/motherboard/DIMM4:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -129,7 +121,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMA1:
+/system/chassis/motherboard/DIMM5:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -137,7 +129,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMA2:
+/system/chassis/motherboard/DIMM6:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -145,7 +137,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMB1:
+/system/chassis/motherboard/DIMM7:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -153,7 +145,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMB2:
+/system/chassis/motherboard/DIMM8:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -161,7 +153,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMC1:
+/system/chassis/motherboard/DIMM9:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -169,7 +161,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMC2:
+/system/chassis/motherboard/DIMM10:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -177,7 +169,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMD1:
+/system/chassis/motherboard/DIMM11:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -185,7 +177,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMD2:
+/system/chassis/motherboard/DIMM12:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -193,7 +185,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMME1:
+/system/chassis/motherboard/DIMM13:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -201,7 +193,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMME2:
+/system/chassis/motherboard/DIMM14:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -209,7 +201,7 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMF1:
+/system/chassis/motherboard/DIMM15:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:
@@ -217,7 +209,255 @@
     xyz.openbmc_project.Inventory.Item:
         Present: 'true'
 
-/system/chassis/motherboard/CPU2_DIMMF2:
+/system/chassis/motherboard/DIMM16:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM17:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM18:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM19:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM20:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM21:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM22:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM23:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM24:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM25:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM26:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM27:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM28:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM29:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM30:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM31:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM32:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM33:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM34:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM35:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM36:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM37:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM38:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM39:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM40:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM41:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM42:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM43:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM44:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM45:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM46:
+    xyz.openbmc_project.Inventory.Decorator.Replaceable:
+        FieldReplaceable: 'true'
+    xyz.openbmc_project.Inventory.Decorator.Cacheable:
+        Cached: 'true'
+    xyz.openbmc_project.Inventory.Item:
+        Present: 'true'
+
+/system/chassis/motherboard/DIMM47:
     xyz.openbmc_project.Inventory.Decorator.Replaceable:
         FieldReplaceable: 'true'
     xyz.openbmc_project.Inventory.Decorator.Cacheable:

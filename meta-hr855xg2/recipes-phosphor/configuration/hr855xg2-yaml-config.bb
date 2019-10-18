@@ -26,7 +26,7 @@ do_install() {
     install -m 0644 -D hr855xg2-leds.yaml \
         ${D}${datadir}/${BPN}/led.yaml
     install -m 0644 -D hr855xg2-defaults.yaml \
-    ${D}${datadir}/${BPN}/defaults.yaml
+        ${D}${datadir}/${BPN}/defaults.yaml
 }
 
 FILES_${PN}-dev = " \
