@@ -1,0 +1,133 @@
+{
+    "Exposes": [
+        {
+            "Address": "0x30",
+            "Bus": 0,
+            "CpuID": 1,
+            "Name": "CPU0 Status",
+            "PresenceByFPGA": [
+                {
+                    "FpgaBlock": 28,
+                    "FpgaAddr": 7,
+                    "FpgaBit": 3
+                }
+            ],
+            "Thresholds": [
+                {
+                    "Direction": "greater than",
+                    "Label": "DIMM",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 83
+                },
+                {
+                    "Direction": "greater than",
+                    "Label": "DIMM",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 81
+                }
+            ],
+            "Type": "XeonCPU"
+        },
+        {
+            "Address": "0x31",
+            "Bus": 0,
+            "CpuID": 2,
+            "Name": "CPU1 Status",
+            "PresenceByFPGA": [
+                {
+                    "FpgaBlock": 28,
+                    "FpgaAddr": 8,
+                    "FpgaBit": 3
+                }
+            ],
+            "Thresholds": [
+                {
+                    "Direction": "greater than",
+                    "Label": "DIMM",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 83
+                },
+                {
+                    "Direction": "greater than",
+                    "Label": "DIMM",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 81
+                }
+            ],
+            "Type": "XeonCPU"
+        },
+        {
+            "Address": "0x32",
+            "Bus": 0,
+            "CpuID": 3,
+            "Name": "CPU2 Status",
+            "PresenceByFPGA": [
+                {
+                    "FpgaBlock": 28,
+                    "FpgaAddr": 9,
+                    "FpgaBit": 3
+                }
+            ],
+            "Thresholds": [
+                {
+                    "Direction": "greater than",
+                    "Label": "DIMM",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 83
+                },
+                {
+                    "Direction": "greater than",
+                    "Label": "DIMM",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 81
+                }
+            ],
+            "Type": "XeonCPU"
+        },
+        {
+            "Address": "0x33",
+            "Bus": 0,
+            "CpuID": 4,
+            "Name": "CPU3 Status",
+            "PresenceByFPGA": [
+                {
+                    "FpgaBlock": 28,
+                    "FpgaAddr": 10,
+                    "FpgaBit": 3
+                }
+            ],
+            "Thresholds": [
+                {
+                    "Direction": "greater than",
+                    "Label": "DIMM",
+                    "Name": "upper critical",
+                    "Severity": 1,
+                    "Value": 83
+                },
+                {
+                    "Direction": "greater than",
+                    "Label": "DIMM",
+                    "Name": "upper non critical",
+                    "Severity": 0,
+                    "Value": 81
+                }
+            ],
+            "Type": "XeonCPU"
+        }
+    ],
+    "Name": "HR855XG2 Baseboard",
+    "Probe": "xyz.openbmc_project.FruDevice({'BOARD_PRODUCT_NAME': '.*HR855XG2*'})",
+    "Type": "Board",
+    "xyz.openbmc_project.Inventory.Decorator.Asset": {
+        "Manufacturer": "$PRODUCT_MANUFACTURER",
+        "Model": "$PRODUCT_PRODUCT_NAME",
+        "PartNumber": "$PRODUCT_PART_NUMBER",
+        "SerialNumber": "$PRODUCT_SERIAL_NUMBER"
+    }
+}
