@@ -1,0 +1,9 @@
+Ok-To-Test+1: OpenBMC CI <openbmcbump-ci@yahoo.com>
+Ok-To-Test+1: Andrew Geissler <geissonator@yahoo.com>
+Verified+1: OpenBMC CI <openbmcbump-ci@yahoo.com>
+Code-Review+2: Benjamin Fair <benjaminfair@google.com>
+Submitted-by: Patrick Williams <patrick@stwcx.xyz>
+Submitted-at: Tue, 01 Dec 2020 19:43:39 +0000
+Reviewed-on: https://gerrit.openbmc-project.xyz/c/openbmc/meta-lenovo/+/38465
+Project: openbmc/meta-lenovo
+Branch: refs/heads/master
